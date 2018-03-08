@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/status', function(req, res){
-    res.status(200).send('OK');
+res.status(404).send('Not Found');
 });
 
 app.listen(port, function(){
